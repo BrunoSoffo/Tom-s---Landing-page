@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+    
     <title>Tom's Jazz School</title>
 </head>
 <body>
@@ -27,41 +32,61 @@
             </div>
         </section>
         <section>
-            <article>
-                <img src="./img/piano.png" alt="Ícone de teclas de piano">
-                <strong>Piano popular</strong>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eum alias corporis expedita voluptatum deleniti laboriosam sed iste? Reiciendis magni, non aliquid pariatur modi beatae quis possimus praesentium eveniet quibusdam?</p>
-                <a href="#">
-                    <img src="./img/arrow-right.svg" alt="Ir para a página do curso">
-                </a>
-            </article>
-            <article>
-                <img src="./img/clef.png" alt="Ícone da clave de sol">
-                <strong>Teoria musical</strong>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eum alias corporis expedita voluptatum deleniti laboriosam sed iste? Reiciendis magni, non aliquid pariatur modi beatae quis possimus praesentium eveniet quibusdam?</p>
-                <a href="#">
-                    <img src="./img/arrow-right.svg" alt="Ir para a página do curso">
-                </a>
-            </article>
-            <article>
-                <img src="./img/sax.png" alt="Ícone de saxofone">
-                <strong>Sax alto</strong>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eum alias corporis expedita voluptatum deleniti laboriosam sed iste? Reiciendis magni, non aliquid pariatur modi beatae quis possimus praesentium eveniet quibusdam?</p>
-                <a href="#">
-                    <img src="./img/arrow-right.svg" alt="Ir para a página do curso">
-                </a>
-            </article>
-            <article>
-                <img src="./img/drums.png" alt="Ícone de bateria">
-                <strong>bateria</strong>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eum alias corporis expedita voluptatum deleniti laboriosam sed iste? Reiciendis magni, non aliquid pariatur modi beatae quis possimus praesentium eveniet quibusdam?</p>
-                <a href="#">
-                    <img src="./img/arrow-right.svg" alt="Ir para a página do curso">
-                </a>
-            </article>
+            <div class="cards">
+                <article>
+                    <img src="./img/piano.png" alt="Ícone de teclas de piano">
+                    <strong>Piano popular</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eum alias corporis expedita voluptatum deleniti laboriosam sed iste? Reiciendis magni, non aliquid pariatur modi beatae quis possimus praesentium eveniet quibusdam?</p>
+                    <a href="#">
+                        <img src="./img/arrow-right.svg" alt="Ir para a página do curso">
+                    </a>
+                </article>
+                <article>
+                    <img src="./img/clef.png" alt="Ícone da clave de sol">
+                    <strong>Teoria musical</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eum alias corporis expedita voluptatum deleniti laboriosam sed iste? Reiciendis magni, non aliquid pariatur modi beatae quis possimus praesentium eveniet quibusdam?</p>
+                    <a href="#">
+                        <img src="./img/arrow-right.svg" alt="Ir para a página do curso">
+                    </a>
+                </article>
+                <article>
+                    <img src="./img/sax.png" alt="Ícone de saxofone">
+                    <strong>Sax alto</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eum alias corporis expedita voluptatum deleniti laboriosam sed iste? Reiciendis magni, non aliquid pariatur modi beatae quis possimus praesentium eveniet quibusdam?</p>
+                    <a href="#">
+                        <img src="./img/arrow-right.svg" alt="Ir para a página do curso">
+                    </a>
+                </article>
+                <article>
+                    <img src="./img/drums.png" alt="Ícone de bateria">
+                    <strong>bateria</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eum alias corporis expedita voluptatum deleniti laboriosam sed iste? Reiciendis magni, non aliquid pariatur modi beatae quis possimus praesentium eveniet quibusdam?</p>
+                    <a href="#">
+                        <img src="./img/arrow-right.svg" alt="Ir para a página do curso">
+                    </a>
+                </article>
+            </div>
+
+            <h2>E <span>vários</span> outros!</h2>
+            <a href="#">Conhecer Cursos</a>
         </section>
-        
     </main>
-    
+
+    <footer>
+        <div>
+            <img src="./img/logo.svg" alt="Tom's Jazz School">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, minus hic. Nihil impedit rerum laboriosam aperiam, sequi magni! Atque quisquam harum voluptas. Pariatur vero laboriosam ad non obcaecati nobis molestiae?</p>
+        </div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Cursos</a>
+            <a href="#">Eventos</a>
+            <a href="#">Contato</a>
+        </nav>
+        <form>
+            <label for="email">Receba materiais gratuitos em seu email</label>
+            <input type="text" name="email" id="email" placeholder="Digite o seu email">
+        </form>
+    </footer>
 </body>
 </html>
