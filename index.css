@@ -142,6 +142,43 @@ h2 {
     background-color: var(--color-secundary);
 }
 
+.card strong {
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.card a {
+    display: block;
+    margin: 3rem 0 0 auto;
+    width: fit-content;
+}
+
+/* Rodapé */
+footer {
+    border-bottom: 0;
+    padding: 1rem 1.25rem 4rem;
+}
+
+footer nav a {
+    display: block;
+    padding: 0;
+}
+
+.newsletter-form label {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.newsletter-form input {
+    border: 2px solid var(--color-black);
+    box-shadow: 4px 4px 0 var(--color-black);
+    font-size: 1.5rem;
+    padding: .5rem;
+    width: 100%;
+}
+
+/* Utilitários */
 .mt-1 {
     margin-top: 1rem;
 }
